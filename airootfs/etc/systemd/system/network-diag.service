@@ -1,0 +1,11 @@
+[Unit]
+Description=Network diag
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/bash -c 'chmod +x ~/network_diag.sh && ~/network_diag.sh'
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

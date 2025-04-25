@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable SSHD at boot
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl enable sshd
+
+[Install]
+WantedBy=multi-user.target
