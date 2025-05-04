@@ -1,3 +1,6 @@
+[![gpl](https://img.shields.io/badge/Arch_Linux-fab387?style=for-the-badge&logo=archlinux&logoColor=cdd6f4&labelColor=1e1e2e)](https://archlinux.org/)
+[![gpl](https://img.shields.io/badge/Arch_ISO_docs-cba6f7?style=for-the-badge&logo=archlinux&logoColor=cdd6f4&labelColor=1e1e2e)](https://wiki.archlinux.org/title/Archiso)
+
 # What Is This ISO Useful For?
 
 I once had to install Arch Linux on a PC without a monitor to set up a home server. That PC had network issues, so I had to figure out a way to get system logs without a monitor or network access. That’s why I created this ISO image — so that after booting, the Linux system would automatically save logs to a separate volume on a USB stick with a file system.
